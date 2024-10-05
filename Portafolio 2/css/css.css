@@ -1,0 +1,177 @@
+.background{
+    background-color: white;
+}
+
+.border{
+    border: 1px solid black;
+    
+}
+.header{
+    background-color: white;
+}
+.logo{
+    width: 100%;
+}
+.nombre{
+    width: 100%;
+}
+.menup{
+    width: 100%;
+}
+.registro{
+    width: 100%;
+}
+.buscar{
+    width: 100%;
+}
+.containerh {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.center {
+    justify-content: center;
+    display: flex;
+}
+.img {
+    width: 50%;
+    margin: auto;
+    border: gray;
+}
+.img1{
+    width: 50%;
+    margin: auto;
+}
+.img2{
+    width: 50%;
+    margin: auto;
+}
+
+.main1 {
+    border: 1px solid rgb(58, 56, 56);
+    height: 800px;
+    width: 100%;
+    background-color: rgb(207, 209, 209);
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.fondo{
+    background-image: url(../img/fondo.jpg);
+}
+footer{
+    width: 100%;
+    height: 200px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 300px){ 
+    .body{
+        background-color: rgb(255, 234, 0);
+
+    }
+    .containerh{
+        display:list-item;
+    }
+    .buscar {
+        display: none;
+    }
+} 
+@media screen and (min-width: 301px ) and (max-width: 600px){
+    .body{
+        background-color: blue ;
+    }
+    
+    .logo {
+        width: 50%;
+    }
+
+    .nombre {
+        width: 100%;
+    }
+
+    .menup {
+        width: 100%;
+    }
+
+    .registro {
+        width: 50%;
+    }
+
+    .buscar {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .body {
+        background-color: rgb(255, 0, 0);
+    }
+    .logo {
+        width: 30%;
+    }
+
+    .nombre {
+        width: 40%;
+    }
+
+    .menup {
+        width: 30%;
+    }
+
+    .registro {
+        width: 50%;
+    }
+
+    .buscar {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .body {
+        background-color: rgb(217, 0, 255);
+    }
+    .logo {
+        width: 30%;
+    }
+
+    .nombre {
+        width: 30%;
+    }
+
+    .menup {
+        width: 30%;
+    }
+
+    .registro {
+        width: 10%;
+    }
+
+    .buscar {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .body {
+        background-color: rgb(30, 255, 0);
+    }
+    .logo {
+        width: 10%;
+    }
+
+    .nombre {
+        width: 20%;
+    }
+
+    .menup {
+        width: 40%;
+    }
+
+    .registro {
+        width: 20%;
+    }
+
+    .buscar {
+        width: 10%;
+    }
+}
